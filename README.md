@@ -14,7 +14,7 @@
 <u>𝓐𝓿𝓲-𝔁-𝓪𝓷𝓰𝓮𝓵</u>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/avishka33/PRINCE-AVI-MD/main/Menu2.jpg" width="300" height="300"/>
+<img src="https://raw.githubusercontent.com/avishka33/Avi-x-angel/main/AVI%20ANGEL.jpg" width="300" height="300"/>
 </p>
 
 <p align="center">
