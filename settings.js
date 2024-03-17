@@ -18,10 +18,10 @@ global.botname = '𝓐𝓿𝓲-𝔁-𝓪𝓷𝓰𝓮𝓵' //ur bot name
 global.ownernumber = '94772836332' //ur owner number
 global.ownername = '𝓡𝓮𝓪𝓵 𝓚𝓲𝓷𝓰 𝓐𝓿𝓲' //ur owner name
 global.websitex = "https://youtube.com/@Avi_NetHunter?sub_confirmation=1"
-global.wagc = "https://whatsapp.com/channel/"
+global.wagc = "https://whatsapp.com/channel/0029VaGisHDFHWq5jpuEmC2t"
 global.themeemoji = '🗡'
 global.wm = "𝘼𝙫𝙞-𝙞𝙣𝙛𝙞𝙣𝙖𝙩𝙚-𝙀𝙙𝙞𝙩𝙞𝙤𝙣"
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD11' //script link
+global.botscript = 'https://github.com/avishka33/Avi-x-angel' //script link
 global.packname = "𝓡𝓮𝓪𝓵 𝓚𝓲𝓷𝓰 𝓐𝓿𝓲"
 global.author = "𝓡𝓮𝓪𝓵 𝓚𝓲𝓷𝓰 𝓐𝓿𝓲\n\n+94772836332"
 global.creator = "94772836332@s.whatsapp.net"
