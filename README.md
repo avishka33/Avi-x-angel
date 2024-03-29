@@ -3,7 +3,7 @@
 ''' future whatsapp bot created by Avishka shavinda '''
 
 
-#Team Avi - infinite Edition ✓ 
+# Team Avi - infinite Edition ✓ 
 
 
 <p align="center">
@@ -42,18 +42,37 @@
 # 𝓐𝓿𝓲-𝔁-𝓪𝓷𝓰𝓮𝓵 - Paircode
 https://replit.com/@AvishkaShavinda/Avi-paircode?v=1
 
-#heroku template
+# heroku template
 
 ``` 
 https://heroku.com/deploy?template=
 ```
 
-#Build pack
+# Build pack
 
 ``` 
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest 
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 ```
 
 ```
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+
+
+# Termux/ssh/ubuntu
+```
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+git clone https://github.com/avishka33/Avi-x-angel
+cd Avi-x-angel
+yarn install
+npm start
 ```
