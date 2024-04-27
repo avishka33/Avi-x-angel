@@ -708,7 +708,7 @@ async function styletext(teks) {
         }
         //auto set bio\\
 	if (db.data.settings[botNumber].autobio) {
-            XeonBotInc.updateProfileStatus(`${botname} Have Been Running For ${runtime(process.uptime())}`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`${botname} 𝙷𝙸 👋  𝙸'𝚖 𝙰𝚅𝙸 𝙷𝙰𝙲𝙺3𝚁 𝚃𝙴𝙰𝙼  🥷𝙼𝙴𝙼𝙱𝙴𝚁 🗡️ ${runtime(process.uptime())}`).catch(_ => _)
         }
      //auto type record
         if (db.data.settings[botNumber].autorecordtype){
@@ -1778,7 +1778,7 @@ if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
             case 'out':
                 if (!XeonTheCreator) return XeonStickOwner()
                 if (!m.isGroup) return XeonStickGroup()
-                replygcxeon('Bye Everyone 🥺')
+                replygcxeon('Bye Everyone බායි බායි🥺')
                 await XeonBotInc.groupLeave(m.chat)
             break
             case 'bc':
@@ -1930,7 +1930,7 @@ var mems = []
 members.map(async adm => {
 mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
 })
-XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+XeonBotInc.sendMessage(from, {text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot! වැඩි හිටියන්ට පමනයි 🥵`, contextInfo: { mentionedJid : mems }}, {quoted:m})
 } else if (args[0] === "off") {
 if (!AntiNsfw) return replygcxeon('Already deactivated')
 let off = ntnsfw.indexOf(from)
@@ -4576,11 +4576,11 @@ case 'gdrive': {
 ▢ *Type:* ${res.mimetype}`)
 	XeonBotInc.sendMessage(m.chat, { document: { url: res.downloadUrl }, fileName: res.fileName, mimetype: res.mimetype }, { quoted: m })
    } catch {
-	replygcxeon('Error: Check link or try another link') 
+	replygcxeon('Error: Check link or try another link දෝශයක් නැවත උත්සහ කරන්න.') 
   }
 }
 break
-case 'pinterest': {
+case 'img': {
 if (!text) return replygcxeon(`Enter Query`)
 let { pinterest } = require('./lib/scraper.js')
 anutrest = await pinterest(text)
@@ -4890,7 +4890,7 @@ const reply = `
             await replygcxeon(jawab)
             }
             break
-case 'what': {
+case 'මොකක්ද': {
             	if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
             	let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`]
                 let kah = lel[Math.floor(Math.random() * lel.length)]
@@ -4898,7 +4898,7 @@ case 'what': {
             await replygcxeon(jawab)
             }
             break
-case 'where': {
+case 'කොහෙද': {
 if (!text) return replygcxeon(`Ask question\n\nExample : ${prefix + command} is your name?`)
             	let wherelol = [`In the mountain`, `On mars`, `On moon`,`In the jungle`,`I dont know ask your mom`,`It could be somewhere`]
                 let kah = wherelol[Math.floor(Math.random() * wherelol.length)]
